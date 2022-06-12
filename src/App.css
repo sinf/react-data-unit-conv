@@ -1,0 +1,32 @@
+/* vim: set shiftwidth=2 expandtab : */
+
+.App {
+  text-align: center;
+}
+
+.calcButtons {
+  margin: 1em auto 1em auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 40em;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2em;
+}
+
+.field label {
+  flex-grow: 1;
+  flex-basis: 6em;
+}
+.field input {
+  flex-grow: 2;
+  flex-basis: 8em;
+}
+
