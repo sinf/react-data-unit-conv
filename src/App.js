@@ -5,7 +5,6 @@ import './App.css';
 function CalcButtons(props) {
   // speed in bits per second
   let [b,set_b] = useState(0);
-  const B = b / 8;
 
   function setValue(e, scale) {
     let x = parseFloat(e.target.value) / scale;
